@@ -30,7 +30,7 @@ Future main() async {
       home: SplashScreen(),
       routes: <String, WidgetBuilder>{
        // HOME_SCREEN: (BuildContext context) => HomeScreen(),
-        HOME_SCREEN: (BuildContext context) => CategoriesScreen(),
+        HOME_SCREEN: (BuildContext context) => TipScreen(),
         SPLASH: (BuildContext context) => SplashScreen(),
         ACCEPTANCE_SCREEN: (BuildContext context) => AcceptanceScreen(),
         REGISTER_SCREEN :(BuildContext context) => RegisterScreen(),
