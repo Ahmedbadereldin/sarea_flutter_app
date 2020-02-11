@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sarea_flutter_app/screens/login_screen.dart';
-import 'package:sarea_flutter_app/screens/otp_screen.dart';
+import 'package:sarea_flutter_app/screens/splash_sceens/otp_screen.dart';
 import 'package:sarea_flutter_app/screens/return_password_screen.dart';
 
 

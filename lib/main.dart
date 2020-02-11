@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:sarea_flutter_app/constants/constants.dart';
-import 'package:sarea_flutter_app/screens/acceptance_screen.dart';
+import 'package:sarea_flutter_app/screens/splash_sceens/acceptance_screen.dart';
 import 'package:sarea_flutter_app/screens/bag_screen.dart';
 import 'package:sarea_flutter_app/screens/categories_screen.dart';
 import 'package:sarea_flutter_app/screens/category_details_screen.dart';
 import 'package:sarea_flutter_app/screens/favorite_screen.dart';
 import 'package:sarea_flutter_app/screens/home_screen.dart';
 import 'package:sarea_flutter_app/screens/item_details_screen.dart';
-import 'package:sarea_flutter_app/screens/otp_screen.dart';
-import 'package:sarea_flutter_app/screens/register_screen.dart';
+import 'package:sarea_flutter_app/screens/splash_sceens/otp_screen.dart';
+import 'package:sarea_flutter_app/screens/splash_sceens/register_screen.dart';
 import 'package:sarea_flutter_app/screens/return_password_screen.dart';
-import 'package:sarea_flutter_app/screens/splash_screen.dart';
-import 'package:sarea_flutter_app/screens/tips_screen.dart';
+import 'package:sarea_flutter_app/screens/splash_sceens/splash_screen.dart';
+import 'package:sarea_flutter_app/screens/splash_sceens/tips_screen.dart';
 
 Future main() async {
   runApp(new MaterialApp(
@@ -30,7 +30,7 @@ Future main() async {
       home: SplashScreen(),
       routes: <String, WidgetBuilder>{
        // HOME_SCREEN: (BuildContext context) => HomeScreen(),
-        HOME_SCREEN: (BuildContext context) => CategoriesScreen(),
+        HOME_SCREEN: (BuildContext context) => TipScreen(),
         SPLASH: (BuildContext context) => SplashScreen(),
         ACCEPTANCE_SCREEN: (BuildContext context) => AcceptanceScreen(),
         REGISTER_SCREEN :(BuildContext context) => RegisterScreen(),

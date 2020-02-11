@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sarea_flutter_app/screens/register_screen.dart';
+import 'package:sarea_flutter_app/screens/splash_sceens/register_screen.dart';
 
 class AcceptanceScreen extends StatefulWidget {
   @override

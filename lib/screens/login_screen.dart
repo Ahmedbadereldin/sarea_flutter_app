@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sarea_flutter_app/screens/categories_screen.dart';
-import 'package:sarea_flutter_app/screens/otp_screen.dart';
-import 'package:sarea_flutter_app/screens/register_screen.dart';
+import 'package:sarea_flutter_app/screens/splash_sceens/otp_screen.dart';
+import 'package:sarea_flutter_app/screens/splash_sceens/register_screen.dart';
 import 'package:sarea_flutter_app/screens/return_password_screen.dart';
 
 class LoginScreen extends StatefulWidget {
